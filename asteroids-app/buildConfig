@@ -8,4 +8,4 @@ spec:
       uri: "https://github.com/scanalesespinoza/pipeline-strategy.git"
   strategy:
     jenkinsPipelineStrategy:
-      jenkinsfilePath: asteroids-app
+      jenkinsfilePath: asteroids-app/Jenkinsfile
