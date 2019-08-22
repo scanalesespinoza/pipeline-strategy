@@ -1,6 +1,6 @@
         node('agent') {
           stage 'build'
-          openshiftBuild(buildConfig: 'ruby-sample-build', showBuildLogs: 'true')
+          openshiftBuild(buildConfig: 'js-playground', showBuildLogs: 'true')
           stage 'deploy'
-          openshiftDeploy(deploymentConfig: 'frontend')
+          openshiftDeploy(deploymentConfig: 'js-playground')
         }
